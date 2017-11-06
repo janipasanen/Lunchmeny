@@ -1,0 +1,38 @@
+/*
+Copyright 2017 Jani Pasanen
+*/
+/* 
+    Created on : 2017-okt-29, 14:02:02
+    Author     : Jani Pasanen
+
+References:
+
+https://stackoverflow.com/questions/46812588/textfield-css-styling-using-javafx
+
+*/
+
+
+.anchor {
+    -fx-background-image: url("/img/dagensLunch-01.png");
+    -fx-background-size: 1280 722;
+}
+
+#pane{
+    -fx-background-color: black;
+    
+    -fx-background-repeat: stretch;   
+    -fx-background-position: center, center;
+    -fx-effect: dropshadow(three-pass-box, black, 0, 0, 0, 0);
+}
+
+.text-field {
+    -fx-background-color: -fx-text-box-border, -fx-background ;
+    -fx-background-insets: 0, 0 0 1 0 ;
+    -fx-background-radius: 0 ;
+}
+.text-field:focused {
+    -fx-background-color: -fx-focus-color, -fx-background ;
+}
+
+
+
